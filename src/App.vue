@@ -32,6 +32,7 @@ const auth = useAuth()
           </template>
           <template v-else>
             <RouterLink class="router-link" :to="{ name: 'register' }"> Register </RouterLink>
+            <RouterLink class="router-link" :to="{ name: 'login' }"> Login </RouterLink>
           </template>
         </div>
       </nav>
